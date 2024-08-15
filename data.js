@@ -1,32 +1,32 @@
 export const data = [
     {
         id:"1",
-        nome:"TV 50 polegadas",
-        preco: "2500",
-        descricao: "tv bem bonita e barata, fullHD"
+        nome:"Risk of rain 2",
+        preco: "60",
+        descricao: "Roguelike de aventura"
     },
     {
         id:"2",
-        nome:"TV 42 polegadas",
-        preco: "2000",
-        descricao: "tv bem bonita e barata, fullHD 4K"
+        nome:"Hollow knight",
+        preco: "40",
+        descricao: "Metroidvania plataformer soulslike"
     },
     {
         id:"3",
-        nome:"Fogão 5 bocas",
-        preco: "1400",
-        descricao: "o melhor fogão"
+        nome:"Grand theft auto 5",
+        preco: "80",
+        descricao: "simulador de bandido"
     },
     {
         id:"4",
-        nome:"Sofá 3 lugares",
-        preco: "2500",
-        descricao: "muito confortável"
+        nome:"Baldur's gate 3",
+        preco: "200",
+        descricao: "RPG de mesa sem a mesa"
     },
     {
         id:"5",
-        nome:"Rádio automotivo",
-        preco: "500",
-        descricao: "a maior potencia"
+        nome:"Clone drone in the danger zone",
+        preco: "15",
+        descricao: "Melhor jogo já feito"
     }
 ]

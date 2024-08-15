@@ -14,28 +14,49 @@ header {
     align-items: center;
     justify-content: center;
     padding: 32px;
-    background-color: #0ded90;
+    background-color: #172e9f;
 }
 main {
+    padding: 32px;
     width: 100%;
-    max-width: 900px;
     margin: 0 auto;
     justify-content: space-around;
-    padding: 32px 0;
     display: flex;
     align-content: center;
-    height: 100%;
-    background-color: darkgreen;
+    height: calc(100vh - 101px);
+    background-color: #2e3d5a;
 }
 
 section
 {
     padding: 12px;
-    background-color: rgb(173, 225, 17);
+    background-color: rgb(64 82 87);
     border-radius: 8px;
 }
 
 button
 {
-    background-color: #6006af;
+    background-color: #6d7889;
+}
+
+p
+{
+    display: flex;
+    justify-content: center;
+}
+
+.game_section
+{
+    width: 560px;
+}
+
+.cart_section
+{
+    width: 340px;
+}
+
+.price_section
+{
+    width: 160px;
+    height: 180px;
 }
