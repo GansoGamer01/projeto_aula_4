@@ -9,6 +9,14 @@ button {
 ul,li{
     list-style: none;
 }
+
+li
+{
+    display: flex;
+    padding: 12px 32px;
+    justify-content: space-between;
+    align-items: center;
+}
 header {
     display: flex;
     align-items: center;
@@ -47,7 +55,7 @@ p
 
 .game_section
 {
-    width: 560px;
+    width: 420px;
 }
 
 .cart_section

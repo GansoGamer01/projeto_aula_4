@@ -1,11 +1,11 @@
 import {data} from "./data.js"
-console.log(data)
-listarItems()
+list_items()
 let cart = []
-function listarItems(){
-    const ulItems = document.querySelector(".ul_items")
+function list_items()
+{
+    const ul_Items = document.querySelector(".ul_items")
     data.forEach((item)=>{
-        ulItems.insertAdjacentHTML("beforeend",`
+        ul_Items.insertAdjacentHTML("beforeend",`
             <li>
                 <p>${item.descricao}</p>
                 <button id="${item.id}">Add to cart</button>
@@ -15,18 +15,32 @@ function listarItems(){
        
         btnAdd.addEventListener("click",()=>{
             console.log(item)
-            carrinho.push(item)
+            cart.push(item)
             console.log(cart)
             build_cart()
+            total_price()
         })
     })  
 }
-function build_cart(){
+function build_cart()
+{
     const ulCart = document.querySelector(".ul_cart")
+    const empty = document.querySelector('#empty_cart')
+    empty.innerText = cart.length + ' items in cart'
     ulCart.innerHTML = ""
     cart.forEach((item)=>{
         ulCart.insertAdjacentHTML("beforeend",`
             <li>${item.descricao}</li>
             `)
     })
+}
+
+function total_price()
+{
+    const p_total = document.querySelector('#total')
+    const total = cart.reduce((prev,next)=>{
+        return prev += Number(next.preco)
+    },0)
+    p_total.innerText = total
+    console.log(total)
 }
