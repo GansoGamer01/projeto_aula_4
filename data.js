@@ -1,71 +1,71 @@
 export const data = [
     {
         id:"1",
-        nome:"Risk of rain 2",
-        preco: "60",
-        descricao: "Adventure roguelike"
+        name:"Risk of rain 2",
+        price: "60",
+        description: "Adventure roguelike"
     },
 
     {
         id:"2",
-        nome:"Hollow knight",
-        preco: "40",
-        descricao: "Metroidvania plataformer soulslike"
+        name:"Hollow knight",
+        price: "40",
+        description: "Metroidvania plataformer soulslike"
     },
 
     {
         id:"3",
-        nome:"Grand theft auto 5",
-        preco: "80",
-        descricao: "thief simulator"
+        name:"Grand theft auto 5",
+        price: "80",
+        description: "thief simulator"
     },
 
     {
         id:"4",
-        nome:"Baldur's gate 3",
-        preco: "200",
-        descricao: "Table RPG without the Table part"
+        name:"Baldur's gate 3",
+        price: "200",
+        description: "Table RPG without the Table part"
     },
 
     {
         id:"5",
-        nome:"Clone drone in the danger zone",
-        preco: "15",
-        descricao: "Best game ever made"
+        name:"Clone drone in the danger zone",
+        price: "15",
+        description: "Best game ever made"
     },
 
     {
         id:"6",
-        nome:"red dead redemption 2",
-        preco: "250",
-        descricao: "Cowboy simulator"
+        name:"red dead redemption 2",
+        price: "250",
+        description: "Cowboy simulator"
     },
 
     {
         id:"7",
-        nome:"The forest",
-        preco: "20",
-        descricao: "Naked people in the woods"
+        name:"The forest",
+        price: "20",
+        description: "Naked people in the woods"
     },
 
     {
         id:"8",
-        nome:"Sons of the forest",
-        preco: "90",
-        descricao: "Naked people with boners"
+        name:"Sons of the forest",
+        price: "90",
+        description: "Naked people with boners"
     },
 
     {
         id:"9",
-        nome:"Elden ring",
-        preco: "180",
-        descricao: "1000+hours RPG"
+        name:"Elden ring",
+        price: "180",
+        description: "1000+hours RPG"
     },
 
     {
         id:"10",
-        nome:"Dark souls",
-        preco: "90",
-        descricao: "Best souls"
+        name:"Dark souls",
+        price: "90",
+        description: "Best souls"
     }
 ]

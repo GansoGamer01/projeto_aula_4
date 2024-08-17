@@ -40,6 +40,7 @@ section
     padding: 12px;
     background-color: rgb(64 82 87);
     border-radius: 8px;
+    overflow: auto;
 }
 
 button
@@ -47,11 +48,6 @@ button
     background-color: #6d7889;
 }
 
-p
-{
-    display: flex;
-    justify-content: center;
-}
 
 .game_section
 {
@@ -60,8 +56,9 @@ p
 
 .cart_section
 {
-    width: 340px;
+    width: 280px;
 }
+
 
 .price_section
 {
